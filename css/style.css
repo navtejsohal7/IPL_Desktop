@@ -1,0 +1,1299 @@
+/*-----start of header------*/
+
+body
+{
+margin:0px;
+padding:0px;
+background-color:#DDDDDD;
+}
+#header
+{
+width:100%;
+margin:0px;
+padding:0px;
+height:150px;
+background:url('images/header.jpg');
+background-repeat:repeat-x;
+}
+#top-header
+{
+width:100%;
+margin:0px;
+padding:0px;
+background-color:black;
+float:left;
+height:30px;
+}
+#header-like
+{
+width:300px;
+float:left;
+height:30px;
+}
+#countdown
+{
+width:400px;
+float:right;
+}
+#header-like h3
+{
+padding:0px;
+margin:4px;
+color:white;
+font-family:arial;
+}
+
+
+#top-header1
+{
+width:1000px;
+margin:0 auto;
+height:30px;
+
+}
+
+#middle-header
+{
+width:100%;
+float:left;
+height:90px;
+}
+#middle-header1
+{
+width:1000px;
+margin:0 auto;
+height:75px;
+padding:0px;
+
+}
+#logo
+{
+width:114px;
+height:58px;
+background:url('images/logo.jpg');
+margin-top:15px;
+}
+#bottom-header
+{
+width:100%;
+margin:0px;
+padding:0px;
+background-color:#0166B4;
+float:left;
+height:30px;
+}
+#bottom-header1
+{
+width:1000px;
+margin:0 auto;
+height:30px;
+}
+#header-nav
+{
+width:1000px;
+margin:4px auto;
+padding:0px;
+height:30px;
+ }
+#header-nav li 
+{
+display:inline;
+list-style:none;
+color:white;
+padding:0px 15px 0px 15px;
+font-weight:bold;
+font-family:Arial;
+}
+#header-nav li a
+{
+text-decoration:none;
+color:white;
+}
+#header-nav li a:hover
+{
+width:110px;
+height:30px;
+background-color:white;
+color:0078C1;
+}
+#header-nav li a span
+{
+background-color:white;
+color:0078C1;
+}
+
+/*-----end of header------*/
+
+
+
+/*-----start of header------*/
+#content
+{
+width:100%;
+float:left;
+margin:0px;
+padding:0px;
+}
+#content-box
+{
+width:1000px;
+margin:0 auto;
+}
+#trending-news
+{
+width:1000px;
+float:left;
+background-color:white;
+height:30px;
+}
+#text-news
+{
+color:red;
+font-family:arial;
+font-size:14px;
+font-weight:bold;
+float:left;
+padding:6px 10px 6px 10px;
+border-right:1px solid #DDDDDD;
+}
+#news1,#news2,#news3,#news4
+
+{
+font-family:arial;
+font-size:14px;
+font-weight:bold;
+float:left;
+padding:6px 10px 6px 10px;
+border-right:1px solid #DDDDDD;
+color:#a6a6a6;
+}
+#top-content
+{
+width:1000px;
+float:left;
+margin-top:10px;
+background-color:white;
+}
+#news
+{
+width:210px;
+float:left;
+}
+#news h3
+{
+padding:10px;
+
+margin-left:20px;
+background-color:0166B4;
+color:white;
+}
+#schedule
+{
+width:210px;
+float:left;
+}
+#schedule h3
+{
+margin-left:20px;
+padding:10px;
+background-color:0166B4;
+color:white;
+
+}
+#schedule ul li #headingp
+{
+background-color:FF9600;
+padding:5px;
+}
+#schedule ul li p
+{
+background-color:92D0FF;
+}
+#mid-content
+{
+width:1000px;
+float:left;
+margin-top:10px;
+background-color:white;
+}
+#statistics-content
+{
+width:1000px;
+float:left;
+margin-top:10px;
+margin-bottom:10px;
+padding-bottom:10px;
+background-color:white;
+}
+
+#team
+{
+width:145px;
+height:100px;
+background:url('images/team.jpg');
+border-radius:2px;
+float:left;
+color:white;
+font-weight:bold;
+}
+#team h4
+{
+padding:25px 0px 0px 25px;
+}
+
+#teamname ul
+{
+width:850px;
+float:left;
+background-color:#262626;
+height:100px;
+margin:0 ;
+padding:0;
+
+}
+#teamname
+{
+
+width:845px;
+float:left;
+background-color:#262626;
+height:100px;
+margin:0px ;
+padding-left:5px;
+
+}
+
+#teamname ul li
+{
+display:inline;
+color:white;
+width:100px;
+height:100px;
+}
+#teamname ul li img
+{
+padding-left:2px;
+border-radius:10px;
+}
+#stats
+{
+width:1000px;
+float:left;
+}
+#statsheading
+{
+width:1000px;
+background-color:8D8D8D;
+height:30px;
+opacity:0.8;
+float:left;
+}
+#statsheading h4
+{
+padding:2px;
+margin:0px;
+font-size:18px;
+font-style:normal;
+}
+#statsbox1
+{
+padding:10px 0px 10px 10px;
+width:235px;
+float:left;
+
+}
+#satatsbox1-heading
+{
+width:235px;
+float:left;
+background-color:#F26b3F;
+height:25px;
+}
+#satatsbox2-heading
+{
+background-color:#70429c;
+width:235px;
+float:left;
+height:25px;
+
+}
+
+
+#satatsbox1-heading h3
+{
+padding:3px 3px 3px 10px;
+margin:0px;
+color:white;
+}
+#satatsbox2-heading h3
+{
+padding:3px 3px 3px 10px;
+margin:0px;
+color:white;
+
+}
+
+#satatsbox1-image
+{
+width:235px;
+float:left;
+height:250px;
+padding-left:0px;
+background-color:#eeeeee;
+}
+#satatsbox1-image img
+{
+padding-left:20px;
+}
+
+#satatsbox1-name
+{
+width:80px;
+height:40px;
+float:right;
+}
+#satatsbox1-name h3
+{
+background-color:FF9C00;
+width:80px;
+height:40px;
+margin-top:-40px;
+}
+#box
+{
+width:235px;
+height:120px;
+background-color:2A2B2B;
+float:left;
+margin-top:-40px;
+}
+#leaders p
+{
+padding-left:10px;
+padding-top:10px;
+font-size:16px;
+background-color:eeeeee;
+height:30px;
+float:left;
+width:1000px;
+}
+#leaderstand
+{
+width:700px;
+float:left;
+}
+#leaderstand p,#archive p
+{
+padding-left:10px;
+padding-top:10px;
+font-size:16px;
+background-color:eeeeee;
+height:30px;
+
+}
+
+#archive
+{
+padding-left:0px;
+width:300px;
+float:left;
+
+}
+#archivebox
+
+{
+width:100%;
+float:left;
+}
+#archivebox1
+{
+width:1000px;
+margin:0 auto;
+}
+#table
+{
+width:1000px;
+float:left;
+}
+#table-box
+{
+width:700px;
+float:left;
+}
+#stats-table
+{
+float:left;
+margin-left:10px;
+background-color:eeeeee;
+
+}
+#table-head td
+{
+color:white;
+}
+#table-head
+{
+background-color:#0166B4;
+}
+#winnersbox
+{
+width:300px;
+float:left;
+}
+#winnerimage
+{
+padding-left:20px;
+
+width:260px;
+height:100px;
+float:left;
+}
+#winnername,#winnername1,#winnername2,#winnername3,#winnername4
+{
+padding-left:20px;width:260px;
+height:20px;
+float:left;
+
+}
+#winnername p
+{
+float:left;
+padding-left:30px;
+padding-right:29px;
+padding-top:0px;
+margin-top:0px;
+background-color:eeeeee;
+font-weight:bold;
+}
+#winnername1 p
+{
+float:left;
+padding-left:30px;
+padding-right:16px;
+padding-top:0px;
+margin-top:0px;
+
+background-color:eeeeee;
+}
+#winnername2 p
+{
+float:left;
+padding-left:30px;
+padding-right:17px;
+padding-top:0px;
+margin-top:0px;
+
+background-color:eeeeee;
+}
+#winnername3 p
+{
+float:left;
+padding-left:30px;
+padding-right:31px;
+padding-top:0px;
+margin-top:0px;
+
+background-color:eeeeee;
+}
+#winnername4 p
+{
+float:left;
+padding-left:30px;
+padding-right:28.5px;
+padding-top:0px;
+margin-top:0px;
+background-color:eeeeee;
+}
+
+
+#first 
+{
+float:left;
+padding:0px;
+margin:0px;
+HEIGHT:30PX;
+}
+#second
+{
+float:right;
+padding:0px;
+margin:0px;
+HEIGHT:30PX;
+
+}
+#first  p
+{
+color:white;
+padding-LEFT:10px;
+font-size:14px;
+
+}
+
+#second p
+{
+color:white;
+opacity:0.5;
+padding-right:10px;
+font-size:16px;
+}
+#satatsbox1-name1,#satatsbox1-name2,#satatsbox1-name3
+{
+padding:0px;
+margin:0px;
+}
+
+#container
+{
+width:100%;
+float:left;
+margin-bottom:10px;
+}
+#containerbox
+{
+width:1000px;
+margin:0 auto;
+
+}
+#containerbox2 h2
+{
+font-weight:normal;
+}
+a
+{
+text-decoration:none;
+}
+#containermatch1
+{
+width:1000px;
+margin:0 auto;
+background-color:white;
+}
+#match1row1
+{
+width:1000px;
+float:left;
+background-color:white;
+
+}
+#match10row1
+{
+width:1000px;
+float:left;
+background-color:white;
+padding-bottom:10px;
+}
+#row1box1
+{
+width:150px;
+height:100px;
+background-color:black;
+color:white;
+margin-left:10px;
+margin-top:10px;
+float:left;
+}
+#row1box1 p
+{
+padding-top:30px;
+font-size:16px;
+text-align:center;
+}
+#row1box2
+{
+width:830px;
+height:100px;
+color:black;
+margin-left:10px;
+margin-top:10px;
+float:left;
+}
+#page
+{
+float:left;
+width:1000px;
+background-color:white;
+}
+#pagenext
+{
+padding-top:10px;
+float:right;
+text-align:center;
+width:50px;
+height:30px;
+font-weight:bold;
+background-color:#eeeeee;
+margin-right:10px;
+margin-bottom:10px;}
+#pageprevious
+{
+padding-top:10px;
+float:right;
+text-align:center;
+width:50px;
+height:30px;
+font-weight:bold;
+background-color:#eeeeee;}
+
+/*teams*/
+#teambox01
+{
+width:100%;
+float:left;
+margin-bottom:10px;
+}
+#teambox01main
+{
+width:1000px;
+margin:0 auto;
+background-color:white;
+}
+#teambox01redirect
+{
+width:1000px;
+margin:0 auto;
+}
+#teambox01team1
+{
+width:1000px;
+float:left;
+background-color:white;
+
+}
+#team1sno
+{
+padding:25px;
+float:left;
+}
+#team1image
+{
+padding:10px;
+margin-top:2px;
+float:left;
+}
+#team1image img
+{
+border-radius:10px;
+}
+
+#hr
+{
+width:1000px;
+float:left;
+opacity:0.2;
+}
+#team1name
+{
+padding:30px 10px 10px 10px;
+float:left;
+}
+/*end of team*/
+
+/*--chennai---*/
+#teamchennaibox
+{
+width:100%;
+margin-bottom:10px;
+float:left;
+}
+
+#teamchennaibox1,#teamchennaibox2
+{
+width:1000px;
+margin:0 auto;
+background-color:white;
+
+}
+#teamchennainame
+{
+float:left;
+width:980px;
+background-color:white;
+padding:20px 10px;
+
+}
+#chennaischedulebox9
+{
+float:right;
+}
+
+#teamchennainame h2
+{
+font-weight:normal;
+width:960px;
+color:D90000;
+background-color:eeeeee;
+padding:10px;
+
+margin-top:9px;
+
+}
+#box2image
+{
+width:700px;
+float:left;
+height:300px;
+background-color:white;
+padding-bottom:10px;
+
+
+}
+#box2teamdetail
+{
+width:300px;
+float:left;
+height:300px;
+background-color:white;
+padding-bottom:10px;
+
+}
+#teamdetailbox
+{
+width:260px;
+padding:0px 10px 0px 20px;
+margin:0px;
+background-color:#eeeeee;
+float:left;
+height:300px;
+
+}
+#teamdetailbox p 
+{
+font-size:15px;
+float:left;
+width:130px;
+margin-top:3px;
+}
+#box2image img
+{
+padding-left:10px;
+float:left;
+}
+
+#box2teamdetail
+{
+width:300px;
+float:left;
+}
+#site
+{
+width:75px;
+height:19px;
+border-radius:5px;
+background-color:0166B4;
+float:right;
+color:white;
+padding:14px 12px 15px 12px;
+}
+#teamchennaistats
+{
+width:300px;
+height:70px;
+background-color:black;
+border-radius:5px;
+color:white;
+float:right;
+margin-top:-80px;
+margin-right:10px;
+opacity:0.7;
+}
+#teamchennaiplay
+{
+float:left;
+width:140px;
+padding-left:10px;
+}
+#teamchennaiplay p
+{
+text-align:center;
+font-size:16px;
+margin-top:5px;
+font-weight:bold;
+}
+
+#teamchennaipoints
+{
+width:140px;
+float:left;
+padding-left:10px;
+
+}
+#teamchennaipoints p
+
+{
+text-align:center;
+font-size:16px;
+font-weight:bold;
+
+margin-top:5px;
+}
+#teamchennaibox3
+{
+width:1000px;
+margin:0 auto;
+}
+#box3news
+{
+width:700px;
+float:left;
+background-color:white;
+margin-top:10px;
+
+}
+#box3news h3
+{
+padding:10px 0px 10px 20px;
+margin-top:10px;
+font-size:24px;
+font-weight:normal;
+background-color:eeeeee;
+}
+#box3newsimage
+{
+width:400px;
+float:left;
+background-color:white;
+margin:10px 0px 10px 10px;
+font-size:20px;
+}
+#box3newsimage img
+{
+width:400px;
+height:300px;
+}
+#newsdetail
+{
+width:700px;
+float:left;
+background-color:white;
+}
+#box3newslist
+{
+margin:10px 10px 10px 10px;
+width:270px;
+float:left;
+background-color:eeeeee;
+}
+#box3newslist ul li
+{
+list-style:square;
+padding-top:11px;
+}
+#teamchennaischedule
+{
+width:270px;
+float:left;
+height:300px;
+background-color:white;
+margin-left:10px;
+margin-top:-82px;
+padding:10px;
+
+}
+#chennaischedulebox1
+{
+width:250px;
+float:left;
+background-color:eeeeee;
+padding:10px;
+}
+#chennaischedulebox2
+{
+width:250px;
+float:left;
+background-color:white;
+padding:10px;
+}
+#versus h2
+
+{
+font-weight:normal;
+padding:1px;
+}
+#versus h3
+{
+padding:1px;
+}
+
+#teamchennaisquad
+{
+width:1000px;
+margin:0 auto;
+}
+#chennaisquadlist
+{
+margin-top:-182px;
+width:700px;
+float:left;
+background-color:white;
+padding-bottom:20px;
+}
+#chennaisquadlistbox
+{
+width:700px;
+background-color:#eeeeee;
+float:left;
+padding:10px 0px 10px 0px;
+margin-top:10px;
+}
+#chennaisquadlistbox h2
+{
+padding:10px 0px 10px 10px;
+font-size:24px;
+margin:10px;
+font-weight:normal;
+background-color:eeeeee;
+}
+#chennaisquadimages
+{
+margin-left:10px;
+width:150px;
+float:left;
+} 
+#chennaisquadimages img
+{
+margin:10px 0px 0px 10px;
+width:100px;
+height:125px;
+padding:20px 20px 20px 40px;
+float:left;
+}
+#chennaisquadimages p
+{
+width:90px;
+padding:0px 0px 0px 25px;
+margin:-20px 0px 0px 40px;
+color:white;
+font-size:16px;
+background-color:393837;
+float:left;
+}
+
+/*--end of chennai---*/
+
+/*--auction---*/
+#auction-box1
+{
+width:100%;
+float:left;
+margin:0px;
+padding:0px;
+}
+#auction-box10
+{
+width:1000px;
+margin:0 auto;
+background-color:white;
+height:30px;
+}
+#auction-box100
+{
+float:left;
+}
+#auction-box101
+{
+float:left;
+}
+#auction-box100 h4
+{
+margin:0px;
+padding:5px 10px 5px 20px;
+border-right:1px solid #9c9c9c;
+color:red;
+}
+#auction-box101 h4
+{
+margin:0px;
+padding:5px 20px 5px 20px;
+color:#9c9c9c;
+border-right:1px solid #9c9c9c;
+}
+#auction-box20
+{
+width:1000px;
+margin:0 auto;
+}
+#auction-box201
+{
+margin:10px 0px 0px 0px;
+background-color:white;
+}
+#auction-box201 h2
+{
+font-weight:normal;
+margin:10px;
+}
+#auction-box202
+{
+width:1000px;
+margin:0px 0px 0px 0px;
+background-color:white;
+}
+#auction-box203
+{
+width:980px;
+background-color:white;
+margin:10px;
+}
+#auction-box203 p
+{
+padding:1px;
+text-align:justify;
+}
+#unsold-table
+{
+width:1000px;
+float:left;
+padding:10px 0px 10px 120px;
+margin-bottom:10px;
+background-color:#eeeeee;
+}
+#unsold-table tr td
+{
+width:283px;
+}
+#unsold-table tr .serial
+{
+width:50px;
+}
+#venue-table
+{
+width:1000px;
+float:left;
+padding:10px 0px 10px 60px;
+margin-bottom:10px;
+background-color:#eeeeee;
+}
+#venue-table tr td
+{
+width:230px;
+padding-top:10px;
+}
+#venue-table tr .serial
+{
+width:50px;
+padding:0px;
+}
+#news-table
+{
+width:1000px;
+float:left;
+padding:10px 0px 10px 0px;
+margin-bottom:10px;
+background-color:#eeeeee;
+margin-left:-10px;
+}
+#news-table tr td
+{
+width:400px;
+padding-top:10px;
+}
+#news-table tr .serial
+{
+width:50px;
+padding:0px;
+}
+#newsdetail-table
+{
+width:1000px;
+float:left;
+padding:0px 20px 10px 30px;
+margin-bottom:10px;
+background-color:#eeeeee;
+}
+#newstable-heading
+{
+width:1000px;
+margin:0px 20px 0px 20px;
+}
+#newstable-heading1
+{
+width:50px;
+padding:0px;
+padding-top:20px;
+float:left;
+}
+#newstable-heading2
+{
+width:250px;
+float:left;
+padding-top:20px;
+}
+#newstable-heading3
+{
+width:670px;
+float:left;
+padding-top:20px;
+}
+#statportion
+{
+width:1000px;
+margin:0 auto;
+background-color:white;
+}
+
+/*--performance--*/
+
+#performance
+{
+width:1000px;
+margin:0 auto;
+
+}
+#performancetable1
+{
+width:1000px;
+float:left;
+background-color:white;
+
+}
+#performancetable1 table
+{
+margin:13px;
+width:970px;
+float:left;
+background-color:eeeeee;
+}
+#performancetable1 table .first
+{
+margin:10px 10px 0px 10px;
+width:950px;
+float:left;
+background-color:#0166B4;
+}
+#performancetable1 h3
+{
+width:960px;
+float:left;
+height:30px;
+margin:10px;
+background-color:eeeeee;
+padding:10px 10px 5px 10px;
+}
+#performancetable1 table .first td
+{
+padding:0px 18px 0px 10px;
+color:white;
+
+}
+#performancetable1 table  tr
+{
+
+margin-left:10px;
+width:960px;
+float:left;
+background-color:eeeeee;
+}
+#performancetable1 table tr td
+{
+padding:0px 18px 0px 10px;
+}
+#performancetable2
+{
+width:1000px;
+float:left;
+background-color:white;
+
+}
+#performancetable2 table
+{
+margin:13px;
+width:970px;
+float:left;
+background-color:eeeeee;
+}
+#performancetable2 table .first
+{
+margin:10px 10px 0px 10px;
+width:950px;
+float:left;
+background-color:#0166B4;
+}
+#performancetable2 h3,#profiletable h3
+{
+width:960px;
+float:left;
+height:30px;
+margin:10px;
+background-color:eeeeee;
+padding:10px 10px 5px 10px;
+}
+#performancetable2 table .first td
+{
+padding:0px 40px 0px 12px;
+color:white;
+
+}
+#performancetable2 table  tr
+{
+
+margin-left:10px;
+width:960px;
+float:left;
+background-color:eeeeee;
+}
+#performancetable2 table tr td
+{
+padding:0px 40px 0px 12px;
+}
+#profiletable
+{
+width:1000px;
+float:left;
+background-color:white;
+}
+#profilebox
+{
+margin:10px;
+width:980px;
+}
+#profilebox p
+{
+margin:10px;
+}
+
+/*--end performance--*/
+
+
+/*--photos--*/
+
+#photosbox2
+{
+width:1000px;
+float:left;
+background-color:white;
+
+}
+#photosbox21
+{
+margin:10px 0px 10px 10px;
+float:left;
+width:237.5px;
+background-color:#EEEEEE;
+}
+#photosbox21 img
+{
+margin:10px ;
+width:217px;
+height:200px;
+}
+
+
+
+/*--end of photos--*/
+
+/*---footer----*/
+
+#footer
+{
+width:100%;
+height:300px;
+float:left;
+background-color:black;
+}
+#footer-main
+{
+width:1000px;
+margin:0 auto;
+height:300px;
+background:url('images/footer.jpg');
+}

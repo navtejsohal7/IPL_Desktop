@@ -1,0 +1,260 @@
+<?php
+mysql_connect("localhost","root","");
+mysql_select_db("ipl");
+$a=mysql_query("SELECT * FROM squad where playername='Dwayne Smith '");
+while($d=mysql_fetch_array($a))
+{
+$b=explode(",",$d[7]);
+$c=explode(",",$d[8]);
+$e=explode(",",$d[9]);
+$f=explode(",",$d[10]);
+$g=explode(",",$d[11]);
+$h=explode(",",$d[12]);
+$i=explode(",",$d[13]);
+$j=explode(",",$d[14]);
+$k=explode(",",$d[15]);
+$l=explode(",",$d[16]);
+$m=explode(",",$d[17]);
+$n=explode(",",$d[18]);
+$o=explode(",",$d[19]);
+$p=explode(",",$d[20]);
+echo "<center>
+		<table width='1000px' >
+			<tr>
+				<td></td>
+				<td>Match </td>
+				<td>NO</td>
+				<td>Runs</td>
+				<td>HS </td>
+				<td>AVE </td>
+				<td>BF </td>
+				<td>SR </td>
+				<td>100</td>
+				<td>50 </td>
+				<td>4s </td>
+				<td>6s </td>
+				<td>ct </td>
+				<td>St</td>
+			</tr>
+			<tr>
+				<td>Career</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				
+			</tr>
+			<tr>
+				<td>2013</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2012</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2011</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2010</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2009</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2008</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Match </td>
+				<td>Balls</td>
+				<td>Runs</td>
+				<td>Wkts </td>
+				<td>BBM </td>
+				<td>Ave</td>
+				<td>Econ</td>
+				<td>SR</td>
+				<td>4w</td>
+				<td>5w</td>
+			</tr>
+			<tr>
+				<td>Career</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2013</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2012</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2011</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2010</td>
+<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2009</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2008</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+
+		</table>
+	 </center>";
+}
+?>

@@ -1,0 +1,1 @@
+<a href='general.php?playername=MS Dhoni'>click</a>
